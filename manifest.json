@@ -11,7 +11,8 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["jquery.min.js", "contentscript.js"]
+      "js": ["jquery.min.js", "contentscript.js"],
+      "run_at": "document_end"
     }
   ],
   "browser_action": {
